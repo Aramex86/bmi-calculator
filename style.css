@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calcwrapper{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(0,0,0,.5);
+    color: #ffff;
+}
+.calcwrapper button{
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+}
+
+
+
+.list-item{
+    list-style: none;
+}
+.list-item span{
+    width: 20%;
+    display: block;
+    margin-top: 20px;
+}
+.list-item input{
+    height: 3rem;
+    border: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.list-item input:focus{
+    background: rgba(102, 252, 3, 0.096);
+    color: #ffff;
+    font-weight: 700;
+    font-size: 1.5rem;
+
+}
+
+
+.result{
+    margin-top: 2rem;
+}
