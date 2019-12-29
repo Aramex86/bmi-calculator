@@ -14,7 +14,7 @@ function getResult(weightPerson,heightPerson){
     weightPerson = weight;
     heightPerson = height;
 
-   var BMI =  weightPerson / heightPerson;
+   var BMI =  weightPerson / (heightPerson*heightPerson);
 
    //Print the result
 
