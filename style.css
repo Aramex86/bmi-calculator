@@ -50,9 +50,11 @@ body{
     border: none;
     font-weight: 700;
     font-size: 1.5rem;
+    outline: none;
 }
 .list-item input:focus{
-    background: rgba(102, 252, 3, 0.096);
+    transition: all .5s ease;
+    border: 2px solid rgb(0, 217, 255);
     color: #ffff;
     font-weight: 700;
     font-size: 1.5rem;
